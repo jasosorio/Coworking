@@ -11,7 +11,7 @@ namespace Coworking.Api.DataAccess.Contracts.Entities
         public string Phone { get; set; }
         public string Email { get; set; }
 
-        //public virtual OfficeEntity Office { get; set; }
+        public virtual OfficeEntity Office { get; set; }
 
     }
 }
